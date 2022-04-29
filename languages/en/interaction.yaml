@@ -1,0 +1,4 @@
+owner: "This command only for Bot Owner!"
+cmd_error: 'an Error check console'
+user_perms: "You need the `%{perms}` permission to use this command!"
+bot_perms: "IYou need the `%{botperm}`  permission to execute this command!"

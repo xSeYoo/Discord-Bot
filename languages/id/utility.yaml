@@ -1,0 +1,16 @@
+##### Language command #####
+lang_perm: "Anda membutuhkan izin `MANAGE_GUILD` untuk menggunakan perintah ini."
+lang_arg: "Harap tentukan Bahasa!"
+provide_lang: "Harap berikan bahasa: `%{languages}`"
+lang_set: "`🔧` | *Bahasa telah disetel ke:* `%{language}`"
+lang_change: "`🔧` | *Bahasa telah diubah menjadi:* `%{language}`"
+lang_error: "Ada yang salah, coba lagi nanti."
+#### Invite ####
+request_by: "Diminta Oleh:"
+#### ping ####
+time: "waktu"
+#### userinfo ####
+userinfo_error: "UNABLE TO FIND THE USER"
+userinfo_user: "❌ Tidak dapat menemukan PENGGUNA"
+#### announce ####
+announce_error: "Anda tidak memiliki izin untuk menggunakan ini!"

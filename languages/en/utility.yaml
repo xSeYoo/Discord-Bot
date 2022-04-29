@@ -1,0 +1,20 @@
+##### Language command #####
+lang_perm: "You need the `MANAGE_GUILD` permission to use this command."
+lang_arg: "Please specify a language!"
+provide_lang: "Please provide languages: `%{languages}`"
+lang_set: "`🔧` | *Language has been set to:* `%{language}`"
+lang_change: "`🔧` | *Language has been change to:* `%{language}`"
+lang_error: "Something went wrong please try again later."
+
+#### Invite command ####
+request_by: "Request By:"
+#### ping command ####
+time: "time"
+#### userinfo ####
+userinfo_error: "UNABLE TO FIND THE USER"
+userinfo_user: "❌ Could not find the USER"
+userinfo_author: "Information about:   "
+userinfo_name: '**❱ Username:**'
+userinfo_date_dc: '**❱ Date Join DC:**'
+#### announce ####
+announce_error: "You don't have permissions to use this!"
