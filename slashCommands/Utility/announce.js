@@ -11,7 +11,13 @@ module.exports = {
       required: true
     },
     {
-      name: "text",
+      name: "title",
+      description: "Set your title",
+      type: "STRING",
+      required: true
+    },
+    {
+      name: "contents",
       description: "input text",
       type: "STRING",
       required: true
@@ -24,9 +30,10 @@ module.exports = {
    */
   run: async (client, interaction, args, language) => {
     let channel = interaction.options.getChannel('channel')
-    let txt = interaction.options.getString('text')
+    let judul = interaction.options.getString(`title`)
+    let txt = interaction.options.getString('contents')
     const embed = new MessageEmbed()
-      .setTitle(`**There's an announcement!**`)
+      .setTitle(`${judul}`)
       .setDescription(`${txt}\n\n @everyone`)
       .setColor('#be55ed')
       //   .setFooter(`Announcement made by ${interaction.user.tag}`,`${interaction.user.displayAvatarURL({dynamic : true})}`) // Change the stuff in the footer to make it anonymous
